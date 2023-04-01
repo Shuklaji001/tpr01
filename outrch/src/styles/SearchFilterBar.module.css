@@ -1,0 +1,70 @@
+.SearchFilterBar {
+}
+
+.SearchFilterBox {
+}
+
+.searchBox {
+  background-image: url("../../public/searchIcon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0.5rem;
+}
+.searchBox::placeholder {
+  padding-left: 1.3rem;
+  color: #adadad;
+}
+
+.searchOptions {
+  width: 15vw;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  /* padding: 1rem; */
+}
+.searchOptions input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #adadad;
+  padding: 0.4rem;
+  width: 80%;
+  background-color: #f5f5f5;
+}
+
+.searchOptions input[type="text"]:focus {
+  outline: none;
+}
+
+.optionHead {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  /* border-bottom: 1px solid black; */
+}
+
+.optionBottom{
+ padding: 0.5rem;
+}
+
+.searchInput {
+  margin-top: 0.8rem;
+  background-color: #f5f5f5;
+  padding: 0.3rem;
+}
+
+.cancelIcon {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.applyButton {
+  display: block;
+  margin-left: 75%;
+  margin-top: 1rem;
+  width: 69px;
+  height: 24px;
+  background: #008caa;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}

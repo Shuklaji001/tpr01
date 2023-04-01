@@ -1,0 +1,33 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   border-bottom: 1px solid #777777;
+}
+
+.userDetails{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    
+}
+
+.userName ,.userEmail{
+    margin-left: -2rem;
+}
+
+.userName{
+    font-weight: bold;
+    font-size: 16px;
+}
+.userEmail{
+    margin-top: -1rem;
+    font-size: 14px;
+    color: #777777;
+}
+
+.dropIcon{
+    margin-top: -1rem;
+}

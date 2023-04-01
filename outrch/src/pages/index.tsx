@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 
 import LoginForm from '@/components/LoginForm'
 import NavBar from '@/components/NavBar'
+import SearchFilterBar from '@/components/SearchFilterBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +19,8 @@ export default function Home() {
       </Head>
       <main >
        {/* <LoginForm/> */}
-       <NavBar/>
+       {/* <NavBar/> */}
+       <SearchFilterBar/>
       </main>
     </>
   )
